@@ -7,7 +7,7 @@ export const lang = 'en';
 export const skipContent = 'Skip to content';
 export const author = {
   name: 'Michael Brunton-Spall', // i.e. Lene Saile - page / blog author's name. Must be set.
-  avatar: 'https://lh3.googleusercontent.com/a-/AOh14GgqmmzowdIw7ZjuJxhp5qimng30pwRTPCfUvUMQyk0=s96-c', // path to the author's avatar. In this case just using a favicon.
+  avatar: 'https://avatars.githubusercontent.com/u/34966', // path to the author's avatar. In this case just using a favicon.
   email: 'michael@brunton-spall.co.uk', // i.e. hola@lenesaile.com - email of the author
   website: 'https://www.brunton-spall.co.uk', // i.e. https.://www.lenesaile.com - the personal site of the author
   fediverse: 'https://octodon.social/@bruntonspall' // used for highlighting journalism on the fediverse. Can be Mastodon, Flipboard, Threads, WordPress (with the ActivityPub plugin installed), PeerTube, Pixelfed, etc. https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/
