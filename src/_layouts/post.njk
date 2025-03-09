@@ -42,6 +42,14 @@ schema: blog
   </div>
 </article>
 
+<!-- set collection to paginate -->
+{% set collectionToPaginate = collections.posts %}
+<!-- if the number of items in the collection is greater than the number of items shown on one page -->
+{% if collectionToPaginate.length > pagination.size %}
+<!-- include pagination -->
+{% include 'partials/pagination.njk' %}
+{% endif %}
+
 {%- css "local" -%}
   {%- include 'css/post.css' -%}
   {%- include 'css/footnotes.css' -%}

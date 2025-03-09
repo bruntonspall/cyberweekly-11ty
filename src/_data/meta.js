@@ -20,8 +20,8 @@ export const creator = {
 };
 export const pathToSvgLogo = 'src/assets/svg/misc/logo.svg'; // used for favicon generation
 export const themeColor = '#dd4462'; // used in manifest, for example primary color value
-export const themeLight = '#f8f8f8'; // used for meta tag theme-color, if light colors are prefered. best use value set for light bg
-export const themeDark = '#FBFBFB'; // used for meta tag theme-color, if dark colors are prefered. best use value set for dark bg
+export const themeLight = '#265077'; // used for meta tag theme-color, if light colors are prefered. best use value set for light bg
+export const themeDark = '#022140'; // used for meta tag theme-color, if dark colors are prefered. best use value set for dark bg
 export const opengraph_default = '/assets/images/template/opengraph-default.jpg'; // fallback/default meta image
 export const opengraph_default_alt =
   "Cyberweekly: A weekly roundup of interesting content from across the web that is of interest to people working in cyber security. Generally long form articles and blog posts, as well as links to outages, incidents and security bugs that you might find interesting. Presented with a small amount of editorial comment"; // alt text for default meta image"
