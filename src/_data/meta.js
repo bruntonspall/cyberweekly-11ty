@@ -1,4 +1,4 @@
-export const url = process.env.URL || 'http://localhost:8080';
+export const url = process.env.URL || 'https://cyberweekly.net';
 export const siteName = 'Cyberweekly';
 export const siteDescription = 'A weekly roundup of interesting content from across the web that is of interest to people working in cyber security. Generally long form articles and blog posts, as well as links to outages, incidents and security bugs that you might find interesting. Presented with a small amount of editorial comment';
 export const siteType = 'Blog'; // schema
