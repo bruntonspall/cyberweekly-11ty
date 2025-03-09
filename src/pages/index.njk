@@ -1,0 +1,56 @@
+---
+layout: base
+permalink: /index.html
+title: 'Cyberweekly'
+description: 'A weekly roundup of interesting content from across the web that is of interest to people working in cyber security. Generally long form articles and blog posts, as well as links to outages, incidents and security bugs that you might find interesting. Presented with a small amount of editorial comment'
+blog:
+  title: 'Archive'
+  intro: "Read the most recent newsletterss"
+---
+
+<div class="wrapper">
+  <header class="full | section" style="--spot-color: var(--color-primary)">
+    <div class="section__inner flow region">
+      <h1 class="text-center" style="color: var(--color-light);">{{ title }}</h1>
+    </div>
+
+    {% svg "divider/waves", null, "seperator" %}
+  </header>
+
+  <article class="full | region">
+    <div class="wrapper flow prose">
+      <h2>Cyber Weekly</h2>
+      <p>
+        A weekly roundup of interesting content from across the web that is of interest to people working in cyber security. Generally long form articles and blog posts, as well as links to outages, incidents and security bugs that you might find interesting. Presented with a small amount of editorial comment
+
+Cyberweekly has been going since May 2018, for over 180 issues
+
+You can browse the archive or you can subscribe to recieve weekly updates, sent on Sunday evenings to wait in your inbox for Monday morning commute.
+      </p>
+      <p>
+      <iframe src="https://cyberweekly.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+      </p>
+    </div>
+  </article>
+
+  <section class="full | region">
+    <div class="wrapper flow prose">
+      <h2>{{ blog.title }}</h2>
+
+      {% if blog.intro %}
+        <p>{{ blog.intro }}</p>
+      {% endif %}
+
+      <div class="feature |  region">
+        <custom-masonry layout="50-50">
+          <!-- loop posts -->
+          {% set itemList = collections.allPosts %}
+					{% asyncEach item in itemList.slice(0, 4) %}
+						{% set definedDate = item.date %}
+						{% include "partials/card-blog.njk" %}
+					{% endeach %}
+        </custom-masonry>
+      </div>
+    </div>
+  </section>
+</div>
