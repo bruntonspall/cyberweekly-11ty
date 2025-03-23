@@ -123,7 +123,7 @@ WRITE INTRO HERE
             if not args.dryrun:
                 imported = {"date": {"start": importtime}}
                 logging.info(f"Setting imported to {importtime}")
-                notion.pages.update(page_id=result['id'], properties={'Tags': tags, 'Imported': imported})
+                notion.pages.update(page_id=result['id'], properties={'Imported': imported})
     md += '''
 Thanks for reading
 
