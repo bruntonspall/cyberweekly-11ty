@@ -1,7 +1,8 @@
 ---
 title: "48 - DNS is at the root of our cybersecurity"
 date: 2019-04-25
-description: "I'm back from holiday, so massive thanks to Jon and Joel for covering the newsletter while I was away.  I hope you enjoyed it, and it was novel to wake up on a Saturday morning and be able to read the newsletter rather than having to check and write it!"
+description: "I'm back from holiday, so massive thanks to Jon and Joel for covering the newsletter while I was away.  I hope you enjoyed it, and it was novel to wake up on a Saturday morning and be able to read the newsletter rather than having to check and write it!
+"
 permalink: /the-root-of-our-cybersecurity/
 ---
 
@@ -154,7 +155,7 @@ This has been running for a while as a Tor site, but a clearnet copy makes it fa
 
 [https://kapo.ee/en/content/annual-reviews.html](https://kapo.ee/en/content/annual-reviews.html)
 
-> approaching in an apparently ordinary situation, for example at a reception or social (business) meeting, the discussion seems to take a natural course, expressing hope of for making a specifc proposal for future meetings. is is followed seamlessly by mostly civil situations for getting to know the person, along with personal questions and inducements.
+> approaching in an apparently ordinary situation, for example at a reception or social (business) meeting, the discussion seems to take a natural course, expressing hope of for making a specifc proposal for future meetings. This is followed seamlessly by mostly civil situations for getting to know the person, along with personal questions and inducements.
 > 
 > Apparently trifling requests to obtain inconsequential information. However, the recruiter will want information of ever better quality, for
 > which a reward is promised, whether money, benefcial relationships/contacts, or professional success. 
